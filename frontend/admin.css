@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#formfoto {
+    display: none;
+  }
+  .box-informacion {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+  
+  .box-btn-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  .card-body {
+      border: thin solid black;
+      border-radius: 0.5rem;
+      padding: 1% 2%;
+      margin: 0% 2%;
+      background: #3a3ace4a;
+  }
+/* -------------------------------------------------- */
+.principalheder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* cornflowerblue; */
+    background-color: #faf6f6;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+}
+.principalheder img {
+    border-radius: 50%;
+}
+
+/* ------------------------------------------------- */
+.boxlogin {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxlogin h1 {
+    padding-top: 10%;
+}
+.boxlogin form{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.boxlogin form label{
+    font-size: xx-large;
+}
+.boxlogin form input{
+    width: 90%;
+}
+/* -----------barras--------------------- */
+.progress {
+    height: 25px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .dynamic-progress {
+    width: 0%;
+    background-color: #4CAF50;
+  }
+/* ------------------------------------------    */
+/* ------------editar publicacion-------------------------- */
+.boxpubli {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.boxpubli form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxpubli .form-label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.boxpubli .form-control{
+    font-size: 120%;
+}
+.boxpubli .form-label{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+/* -------------fin de editar publicacion ----------------------- */
+/* --------------------modal publicar------------- */
+.modalpublic {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1060;
+    width: 100%;
+    height: 100%;
+    overflow: hidden auto;
+    outline: 0px;
+    background-color: #0009ff45;
+}
+/* -------------------DIV ESTADISTICAS------------  */
+.div-estadisticas {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .div-estadisticas form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+   }
+   #compra-modal{
+    background-color: rgb(180, 180, 229);
+}
+/* ------------------------------    */
+/* ---------------------CAJA DE LOGIN------------------- */
+.boxinicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.boxinicio form {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border: thin solid #a9acaa;
+    border-radius: 0.5rem;
+}
+.boxinicio .form-control{
+    border-bottom: thin solid black;
+}
+/* ------------FIN CAJA LOGIN------------------- */
